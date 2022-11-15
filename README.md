@@ -9,9 +9,27 @@ Ele pode ser baixado conforme abaixo:
 $ git clone https://github.com/SamuelDevMobile/gRPC_GoLang.git
 ```
 ## AVISO!!!
-> para conseguir executar este projeto, é preciso ter golang instalado ou ultilize um container com docker, sqlite3 e, do Evans instalado em sua maquina.
+> para conseguir executar este projeto, é preciso ter golang instalado (ou ultilize um container com docker), protobuf, protoc, sqlite3, e o Evans.
 
-Crie uma tabela com o sqlite3.
+## Protobuf - Linux
+```sh
+$ apt install -y protobuf-compiler
+$ protoc --version  # Ensure compiler version is 3+
+```
+
+## Protobuf - macOs
+```sh
+$ brew install protobuf
+$ protoc --version  # Ensure compiler version is 3+
+```
+
+## Protoc
+```sh
+$ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28
+$ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
+```
+
+Crie uma tabela com o sqlite3. (para instala-lo é bem simples tem um tutorialzinho na internet :) )
 ```sh
 create table categories (id string, name string, description string);
 ```
@@ -54,6 +72,13 @@ Com o banco de dados criado anteriormente e o Evans instalado, rode o seguinte c
 ```sh
 evans -r repl
 ```
+<img width="429" alt="Captura de Tela 2022-11-15 às 00 55 56" src="https://user-images.githubusercontent.com/26841238/201822678-8ecc7ae3-45e6-42e0-a3cb-5bd700a7b2e4.png">
+
+Com este comando você consegue executar qualquer comando para executar uma chamada.
+```sh
+call O_QUE_DESEJA_EXECUTAR
+```
+<img width="495" alt="Captura de Tela 2022-11-15 às 00 58 17" src="https://user-images.githubusercontent.com/26841238/201822989-7e4982d9-63ee-4d32-99ab-a3b0d0264f66.png">
 
 
 # Readme em construção
