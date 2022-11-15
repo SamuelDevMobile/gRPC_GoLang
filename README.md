@@ -77,7 +77,7 @@ call O_QUE_DESEJA_EXECUTAR
 <img width="495" alt="Captura de Tela 2022-11-15 às 00 58 17" src="https://user-images.githubusercontent.com/26841238/201822989-7e4982d9-63ee-4d32-99ab-a3b0d0264f66.png">
 
 ## Visão geral da arquitetura
-Em construção
+Projeto utilizado a linguagem de programação GoLang, com comunicação feita com gRPC, usando protoc para gerar códigos e, executando o client Evans para fazer as interações de uma forma bem simples com um servidor em gRPC.
 
 
 ## Fluxo de trabalho de Controle de Versão
