@@ -76,5 +76,19 @@ call O_QUE_DESEJA_EXECUTAR
 ```
 <img width="495" alt="Captura de Tela 2022-11-15 às 00 58 17" src="https://user-images.githubusercontent.com/26841238/201822989-7e4982d9-63ee-4d32-99ab-a3b0d0264f66.png">
 
+## Visão geral da arquitetura
+Em construção
 
-# Readme em construção
+
+## Fluxo de trabalho de Controle de Versão
+Usamos vagamente a abordagem "Git flow": master é a versão
+branch - deve ser sempre liberável e apenas mesclado em
+quando testamos e verificamos que tudo funciona e está
+bom para ir.
+
+O desenvolvimento diário é feito no ramo de desenvolvimento. Características,
+correções de bugs e outras tarefas são feitas como ramificações do desenvolvimento,
+em seguida, mesclado de volta ao desenvolvimento diretamente ou por meio de solicitações pull.
+
+Mantenha os commits atômicos e autoexplicativos, use o rebase para limpar
+até ramificações confusas antes de se fundir novamente no desenvolvimento.
