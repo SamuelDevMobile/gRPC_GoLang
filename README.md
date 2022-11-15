@@ -59,7 +59,7 @@ Execute o seguinte comando para gerar código com protoc.
 protoc --go_out=. --go-grpc_out=. proto/NOME_DO_ARQUIVO.proto
 ```
 
-Em seguide rode o seguinte comando para baixar as dependências.
+Em seguida rode o seguinte comando para baixar as dependências.
 ```sh
 go mod tidy
 ```
