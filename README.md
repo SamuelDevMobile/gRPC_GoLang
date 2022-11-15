@@ -51,11 +51,6 @@ brew install evans
 go install github.com/ktr0731/evans@latest
 ```
 
-Comando para iniciar um projeto com GoLang.
-```sh
-go mod init NOME_DO_SEU_MODULO
-```
-
 Criando seu arquivo protofile.
 <img width="670" alt="Captura de Tela 2022-11-15 às 00 45 58" src="https://user-images.githubusercontent.com/26841238/201821540-3b0d53df-43fc-40fa-85d0-230fcdcfb8ca.png">
 
