@@ -64,6 +64,11 @@ Em seguide rode o seguinte comando para baixar as dependências.
 go mod tidy
 ```
 
+Para executar o servidor em Go.
+```sh
+go run cmd/grpcServer/main.go
+```
+
 Com o banco de dados criado anteriormente e o Evans instalado, rode o seguinte comando.
 ```sh
 evans -r repl
