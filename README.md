@@ -10,10 +10,13 @@ $ git clone https://github.com/SamuelDevMobile/gRPC_GoLang.git
 ```
 ## AVISO!!!
 > para conseguir executar este projeto, é preciso ter golang instalado ou ultilize um container com docker, sqlite3 e, do Evans instalado em sua maquina.
-> crie uma tabela com o sqlite3.
+
+Crie uma tabela com o sqlite3.
 ```sh
 create table categories (id string, name string, description string);
 ```
+
+Para instalar o Evans.
 
 ## macOs
 ```sh
